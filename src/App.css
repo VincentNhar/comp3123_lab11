@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background-color: #03ab30;
+  width: auto;
+  height: auto;
+}
+.person-card {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: lightskyblue;
+}
+.person-card-header {
+  font-weight: bold;
+  font-size: medium;
+  text-align: left;
+  margin: 10px 10px 10px 20px;
+}
+.person-body{
+  display: flex;
+}
+.person-card hr {
+  border-top: 1px solid black;
+}
+.person-body-img {
+  margin: 20px 20px 20px 30px;
+}
+.person-body-img img {
+  border-radius: 50%;
+}
+
+.person-body-img button {
+  border-radius: 5px;
+  background-color: #3474cf;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  color: white;
+}
+
+.person-body-attr {
+  text-align: right;
+}
+
+.person-body-value {
+  text-align: left;
+}
+
+.person-body-attr div, .person-body-value div{
+  margin: 20px;
+}
+
+#username{
+  font-weight: 600;
+}
+
+#address{
+  white-space: 'pre-line';
+}
